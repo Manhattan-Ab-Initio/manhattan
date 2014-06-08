@@ -1,0 +1,53 @@
+events: Ticks
+summary: 68
+fn=<method 'append' of 'list' objects>
+0 0
+
+fn=taylor_sin high_performance_taylor_ex.py:10
+10 0
+cfn=<method 'append' of 'list' objects>
+calls=500 0
+10 0
+cfn=factorial high_performance_taylor_ex.py:1
+calls=250 1
+10 22
+cfn=<range>
+calls=1 0
+10 0
+
+fn=benchmark high_performance_taylor_ex.py:19
+19 0
+cfn=taylor_sin high_performance_taylor_ex.py:10
+calls=1 10
+19 23
+cfn=taylor_exp high_performance_taylor_ex.py:7
+calls=1 7
+19 45
+
+fn=factorial high_performance_taylor_ex.py:1
+1 68
+cfn=factorial high_performance_taylor_ex.py:1
+calls=187250 1
+1 67
+
+fn=<module> high_performance_taylor_ex.py:1
+1 0
+cfn=benchmark high_performance_taylor_ex.py:19
+calls=1 19
+1 68
+
+fn=taylor_exp high_performance_taylor_ex.py:7
+7 0
+cfn=factorial high_performance_taylor_ex.py:1
+calls=500 1
+7 45
+cfn=<range>
+calls=1 0
+7 0
+
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0 0
+
+fn=<range>
+0 0
+
